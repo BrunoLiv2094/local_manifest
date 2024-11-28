@@ -11,8 +11,8 @@
 
   <!-- Device repos -->
   <project path="device/xiaomi/alioth" name="device_xiaomi_alioth" remote="bn" />
-  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" remote="bn" />
-  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" remote="bn" />
+  <project path="kernel/xiaomi/alioth" name="kernel_xiaomi_alioth" clone-depth="1" remote="bn" />
+  <project path="vendor/xiaomi/alioth" name="vendor_xiaomi_alioth" clone-depth="1" remote="bn" />
 
   <!-- Hardware -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="pixelos-gm" />
